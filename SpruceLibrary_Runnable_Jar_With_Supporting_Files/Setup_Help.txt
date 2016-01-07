@@ -1,0 +1,50 @@
+------------------------------------SpruceLibrary---------------------------------- 
+Contents: B- Setup
+	  C- Conclusion
+---------------------------
+___________________________
+B - Setup:
+------
+1. Need Java Runtime Environment in PC/Laptop. So download and install JDK (Java 
+	Development Kit) any V.
+2. Whole \SpruceLibrary_Runnable_Jar_With_Supporting_Files folder containing:
+	-SpruceLibrary.jar file &
+	-A sub-folder named lib which contains mysql-connector-java-5.1.37-bin.jar file.
+	-(Inside lib folder, you can use any version of mysql-connector-java).
+3. Need to create server for SpruceLibrary: (You can use XAMPP or anything you like)
+	-Create a database named "spruce_library_database", username="root", password="".
+	-Inside database, create 3 tables named LibraryBook, UserInfo & AuthorityInfo.
+		Table Creation: Must follow column name, type, key.
+	-LibraryBook
+		Book_Id varchar(15) Primary Key
+		Book_Name varchar(50)
+		Author_Name varchar(50)
+		Shelf_Id varchar (15)
+		Book_Category varchar(30)
+	-UserInfo
+		Fullname varchar(50)
+		Username varchar(40) Primary Key
+		Contact varchar(40)
+		Address varchar(50)
+		Password varchar(30)
+	-AuthorityInfo
+		Fullname varchar(50)
+		Username varchar(40) Primary Key
+		Contact varchar(40)
+		Address varchar(50)
+		Password varchar(30)
+4. When upper 3 steps are done, you can run SpruceLibrary.jar file.
+5. For Authority Registration you need an authorization key, for now key="Admin".
+------------------------------------------------------------------------------------------
+__________________________________________________________________________________________
+C - Conclusion:
+---------------
+1. Try this SpruceLibrary a Library management desktop application using JavaFX and mysql.
+2. For any query, help feel free to contact me through emails below, contact info also
+	given on SpruceLibrary app in desginer/developer area.
+	-touhidul.mti@gmail.com
+	-mdtislam93@gmail.com
+3. Take a visit to new blog MTILAB.BLOGSPOT.COM
+4. ThankYou!
+------------------------------------------------------------------------------------------
+__________________________________________________________________________________________
