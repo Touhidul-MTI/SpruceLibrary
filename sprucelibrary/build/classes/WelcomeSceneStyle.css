@@ -1,0 +1,149 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 23, 2015, 12:10:16 AM
+    Author     : Touhidul_MTI
+*/
+
+.root{
+    -fx-background-color: #383838;
+    -fx-font-size: 10pt;
+}
+.Label{
+    -fx-text-fill: #DC9656;
+    -fx-font-size: 10pt;
+}
+.button{
+    -fx-background-color: #993333;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-font-size: 12pt;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+
+.textFieldStyle{
+    -fx-text-fill:#ab4642;
+    -fx-font-size:10pt;
+    -fx-font-weight:bold;
+}
+.labelStyle{
+    -fx-font-style: italic;
+    -fx-text-fill: #cccc99;
+    -fx-font-size: 13pt;
+    -fx-font-weight: bold;
+}
+.profileLabelStyle{
+    -fx-text-fill: #999966;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+}
+.headline{
+    -fx-font-weight: bold;
+    -fx-text-fill: #7CAFC2;
+    -fx-font-size: 15pt;
+}
+.registrationButtonStyle{
+    -fx-background-color: #666633;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-radius: 6;
+    -fx-font-weight: bold;
+    -fx-font-size: 11pt;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+.closeButtonStyle{
+    -fx-background-color: #865a2d;
+    -fx-text-fill: #d8d8d8;
+    -fx-background-radius: 6;
+    -fx-font-size: 10.5pt;
+    //-fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+}
+#libraryNameStyleId{
+    -fx-font-style: italic;
+    -fx-text-fill: #DC9656;
+    -fx-font-weight: bold;
+    -fx-font-size: 40pt;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+#aboutStyle{
+    -fx-font-style: italic;
+    -fx-text-fill: #999966;
+    -fx-font-size: 11pt;
+}
+#quoteStyle{
+    -fx-font-style: italic;
+    -fx-text-fill: #DC9656;
+    -fx-font-size: 11pt;
+    -fx-font-weight: bold;
+}
+.MessageStyle{
+    -fx-font-style: italic;
+    -fx-text-fill: #ff9900;
+    -fx-font-size: 11pt;
+}
+#yesNoConfirm{
+    -fx-background-color: #B8B8B8;
+    -fx-text-fill: #282828;
+}
+#authorityPanelId{
+    //-fx-font-style: italic;
+    -fx-text-fill: #DC9656;
+    -fx-font-weight: bold;
+    -fx-font-size: 25pt;
+    -fx-effect: innershadow( three-pass-box , rgba(0,0,0,0.7) , 6, 0.0 , 0 , 2 );
+}
+.table-view {
+    -fx-base: #1d1d1d;
+    -fx-text-fill: while;
+    //-fx-control-inner-background: #1d1d1d;
+    -fx-background-color: #1d1d1d;
+    -fx-table-cell-border-color: #383838;
+    -fx-table-header-border-color: transparent;
+    -fx-padding: 10;
+}
+
+.table-view .column-header .label {
+    -fx-font-size: 16pt;
+    
+    -fx-font-family: "Segoe UI Light";
+    -fx-text-fill: white;
+    -fx-alignment: center-left;
+    -fx-opacity: 1;
+}
+
+.table-view:focused .table-row-cell:filled:focused:selected {
+    -fx-background-color: #993333;
+    -fx-font-weight: bold;
+}
+
+//menu style start
+.menu-item .label {
+    -fx-text-fill: #772722;
+}
+
+.menu-item:focused {
+     -fx-background-color: #993333;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+
+.context-menu {
+    -fx-background-color: #cccc66;
+    -fx-font-weight: bold;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+}
+.menu-bar {
+    -fx-background-color: #c68d52;
+}
+.menu-bar .label{
+    -fx-font-weight: bold;
+}
+//menu style end
